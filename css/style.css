@@ -1,0 +1,57 @@
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    outline: none;
+}
+html{  scroll-behavior: smooth;}
+body{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+.nav-item a,span{
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav-item span{
+transition: .2s all;
+}
+.userlogin{
+    font-size: 13px;
+    font-weight: bolder;
+}
+.person-icon{
+    top:calc( 100% + 10px);
+    left: 100%;
+}
+.nav-item span:hover{
+    padding: 5px;
+
+}
+.logo{
+    width: 100px;
+}
+.cart{
+    top: 20%;
+    left: 0;
+}
+
+.product{
+    padding: 5px;
+overflow: hidden;
+}
+.product:hover{
+ border: 2px solid rgb(46, 68, 139);
+}
+.product img{
+    object-fit: contain;
+    aspect-ratio: 1/1;
+}
+.product button{
+    transition: .5s;
+  transform: translateY(calc(100% + 7px) );
+}
+.product:hover button{
+  transform: translateY(0%);
+}

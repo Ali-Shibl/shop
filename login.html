@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>login</title>
+        <meta name="description" content="loginPage">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <h1 class="text-center h3 mt-5">login page</h1>
+            <form class="w-75 m-auto py-5">
+
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="emailInput" placeholder="enter to email">
+                    <label for="emailInput">Email </label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="passwordInput" placeholder="enter to Password">
+                    <label for="passwordInput">Password </label>
+                  </div>
+
+                  <p class="alert alert-danger d-none" id="errorInputs"></p>
+
+                  <button class="btn btn-outline-dark " id="login">login</button>
+                  <a href="./index.html" class="ms-3 text-decoration-none btn btn-dark">register</a>
+
+
+            </form>
+        </div>
+
+
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/login.js" ></script>
+    </body>
+</html>
